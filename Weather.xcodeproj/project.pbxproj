@@ -47,6 +47,7 @@
 		BB73D3582280B407003A8732 /* APIWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeather.swift; sourceTree = "<group>"; };
 		BB73D35A2280B56B003A8732 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		BB73D35C2280B8FD003A8732 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		BB73D35E2280C34D003A8732 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 		BB73D2F7228076A8003A8732 = {
 			isa = PBXGroup;
 			children = (
+				BB73D35E2280C34D003A8732 /* README.md */,
 				BB73D303228076A8003A8732 /* Weather */,
 				BB73D30E228076A8003A8732 /* WeatherTests */,
 				BB73D302228076A8003A8732 /* Products */,
