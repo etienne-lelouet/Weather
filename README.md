@@ -18,11 +18,11 @@ let weatherClient = WeatherClient(key: "YOUR_API_KEY")
 
 ## Documentation
 
-### `func citiesSuggestions(for partialName: String) -> [City]`
+#### `func citiesSuggestions(for partialName: String) -> [City]`
 Returns an array of `City` matching the provided name
 
-### `func weather(for city: City, completion: @escaping (Forecast?) -> Void)`
+#### `func weather(for city: City, completion: @escaping (Forecast?) -> Void)`
 Asynchronously query the current weather informations for the provided `City`. Completion provides a `Forecast` or nil.
 
-### `func forcast(for city: City, completion: @escaping ([Forecast]?) -> Void)`
+#### `func forceast(for city: City, completion: @escaping ([Forecast]?) -> Void)`
 Asynchronously query a 5-day weather forecast for the provided `City`. Completion provides a `Forecast` array or nil.
